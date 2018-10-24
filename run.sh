@@ -19,6 +19,6 @@ mkdir data/bin
 #run style transfer on video
 python transform_video.py --in-path examples/content/fox.mp4 \
   --checkpoint ./scream.ckpt \
-  --out-path /artifacts/out.mp4 \
+  --out-path /storage/out.mp4 \
   --device /gpu:0 \
   --batch-size 4 2>&1
